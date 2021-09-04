@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+#Parent {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+
+#Parent > div {
+  flex: 1 1 auto;
+  margin: 1rem;
+}

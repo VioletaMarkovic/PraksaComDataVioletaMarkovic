@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.mat-card {
+  height: 350px;
+  background-color: rgb(28 52 68);
+  border-radius: 20px;
+  margin: 2rem;
+}
+
+.card {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mat-card-avatar {
+  background-image: url("../../../assets/slike/default-avatar-profile-flat-icon-vector-contact-symbol-illustration-184752213.jpg");
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+}
+.mat-card-header {
+  align-items: center;
+}
+
+.mat-card-title {
+  font-size: 30px;
+  color: white;
+}
+.mat-card-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 19px;
+  margin-top: 23px !important;
+  height: 130px;
+}
+
+.mat-card-content div {
+  margin-bottom: 8px;
+}
+
+.mat-card-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.mat-raised-button {
+  width: 85px;
+  align-self: center;
+}
+
+.mat-card-content div span:first-child {
+  color: rgb(145, 98, 141);
+  font-weight: bold;
+}
+
+.mat-card-content div span:nth-child(2) {
+  color: rgb(252, 249, 252);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+  /* .mat-card {
+    width: 100%;
+  } */
+
+  /* .mat-card-header{
+      font-size: 35px;
+    } */
+
+  /* .mat-raised-button{
+      width: 100px;
+      height: 50px;
+    }
+  
+
+    .mat-card-content span{
+      font-size: 25px;
+      padding: 5px;
+    }
+    .mat-card-content div span:nth-child(2){
+      color: rgb(213, 185, 219); 
+    }  */
+}

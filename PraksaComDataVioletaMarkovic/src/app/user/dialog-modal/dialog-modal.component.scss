@@ -1,0 +1,50 @@
+.mat-dialog-content {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 350px;
+  background-color: #ffffff;
+  /* background-color: #6e92bc; */
+}
+
+.mat-dialog-content div {
+  padding: 5px;
+  font-size: 26px;
+}
+.mat-dialog-content div span:first-of-type {
+  color: rgb(32 23 35);
+  font-weight: bold;
+}
+
+.mat-dialog-content div span:nth-child(2) {
+  color: #060508;
+}
+
+.mat-dialog-title {
+  font-size: 35px;
+  color: white;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+#Slika {
+  display: flex;
+  justify-content: center;
+}
+
+.mat-dialog-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.mat-button {
+  background-color: rgb(252 252 253);
+  width: 110px;
+  height: 40px;
+  color: #201b1b;
+  font-size: 20px;
+}

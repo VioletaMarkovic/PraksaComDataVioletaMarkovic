@@ -1,0 +1,32 @@
+<h2 mat-dialog-title>Details</h2>
+<div mat-dialog-content>
+  <div id="Slika">
+    <img
+      src="../../../assets/slike/default-avatar-profile-flat-icon-vector-contact-symbol-illustration-184752213.jpg"
+    />
+  </div>
+  <div>
+    <span>Name: </span>
+    <span>{{ user?.name }}</span>
+  </div>
+  <div>
+    <span>Gender: </span>
+    <span>{{ user?.gender }}</span>
+  </div>
+  <div>
+    <span>Status: </span>
+    <span>{{ user?.status }}</span>
+  </div>
+
+  <div>
+    <span>Id: </span>
+    <span>{{ user?.id }}</span>
+  </div>
+  <div>
+    <span>Email: </span>
+    <span>{{ user?.email }}</span>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button cdkFocusInitial (click)="onCloseClick()">OK</button>
+</div>

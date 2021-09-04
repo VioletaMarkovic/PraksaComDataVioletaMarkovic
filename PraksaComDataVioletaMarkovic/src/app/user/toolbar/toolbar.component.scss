@@ -1,0 +1,26 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  height: 135px;
+  align-items: center;
+  font-size: 35px;
+  background: #47364d;
+  color: #fff;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+}
+
+#Logo {
+  display: flex;
+  align-items: center;
+}
+
+#Ime {
+  font-size: 28px;
+}

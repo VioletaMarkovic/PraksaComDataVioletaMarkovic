@@ -1,0 +1,28 @@
+<section class="sample-app-content">
+  <h1>Add:</h1>
+  <form #myForm="ngForm" (ngSubmit)="onSubmitTemplateBased()">
+    <mat-form-field>
+      <mat-label>Name:</mat-label>
+      <input matInput type="text" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Gender:</mat-label>
+      <mat-select>
+        <mat-option value="male">Male</mat-option>
+        <mat-option value="female">Female</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Status:</mat-label>
+      <mat-select>
+        <mat-option value="active">Active</mat-option>
+        <mat-option value="inactive">Inactive</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Email:</mat-label>
+      <input matInput type="text" />
+    </mat-form-field>
+    <button type="submit" [disabled]="!myForm.valid">Submit</button>
+  </form>
+</section>

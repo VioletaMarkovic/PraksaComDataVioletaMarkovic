@@ -1,0 +1,20 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+}
+.sample-app-content {
+  background-color: rgb(244, 248, 248);
+  padding: 2rem;
+  font-size: 24px;
+}
+
+button {
+  font-size: 28px;
+  width: 120px;
+  border-radius: 18px;
+  background-color: rgb(70, 46, 70);
+  color: white;
+  align-self: center;
+  padding: 10px;
+}
